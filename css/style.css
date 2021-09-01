@@ -1034,6 +1034,7 @@ section {
   .preview__text-content {
     left: 40px;
     top: 164px;
+    padding: 0 5px;
   }
 
   .preview__title {
