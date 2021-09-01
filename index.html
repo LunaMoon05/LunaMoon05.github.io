@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Евклид</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="burger">
+          <button class="burger__btn">
+            <div></div>
+            <div></div>
+            <div></div>
+          </button>
+          <ul class="burger__menu">
+            <li>
+              <a href="#" class="burger__link">О нас</a>
+            </li>
+            <li>
+              <a href="#" class="burger__link">Проекты</a>
+            </li>
+            <li>
+              <a href="#" class="burger__link">Этапы</a>
+            </li>
+            <li>
+              <a href="#" class="burger__link">Отзывы</a>
+            </li>
+            <li>
+              <a href="#" class="burger__link">Контакты</a>
+            </li>
+          </ul>
+        </div>
+        <img src="./img/logo.png" alt="Логотип" class="header__logo">
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__list-item">
+              <a href="#" class="header__link">О нас</a>
+            </li>
+            <li class="header__list-item">
+              <a href="#" class="header__link">Проекты</a>
+            </li>
+            <li class="header__list-item">
+              <a href="#" class="header__link">Этапы</a>
+            </li>
+            <li class="header__list-item">
+              <a href="#" class="header__link">Отзывы</a>
+            </li>
+            <li class="header__list-item">
+              <a href="#" class="header__link">Контакты</a>
+            </li>
+          </ul>
+          <button aria-label="Поиск" class="header__search">
+            <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="7.56126" height="1.89031"
+                transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6062 17.3762)" fill="#333333" />
+              <path
+                d="M20.9303 10.7726C20.9303 16.1533 16.4855 20.5452 10.9652 20.5452C5.44478 20.5452 1 16.1533 1 10.7726C1 5.39198 5.44478 1 10.9652 1C16.4855 1 20.9303 5.39198 20.9303 10.7726Z"
+                stroke="#333333" stroke-width="2" />
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="preview">
+      <div class="container preview__container">
+        <div class="preview__wrapper">
+          <div class="preview__text-content">
+            <h1 aria-label="Проектные решения любой сложности" class="preview__title">Проектные решения любой сложности</h1>
+            <p class="preview__text">Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день
+              остаются уделом проектантов</p>
+            <button class="preview__btn">Заказать расчёт</button>
+          </div>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./img/preview1.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/preview2.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/preview3.jpg" alt="">
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container">
+        <h2 class="section-title about__section-title">О нас</h2>
+        <p class="text about__text">Также как перспективное планирование создаёт необходимость включения в
+          производственный план
+          целого ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей масштабности и
+          грандиозности. А также диаграммы связей могут быть описаны максимально подробно. Мы вынуждены отталкиваться
+          от того, что убеждённость некоторых оппонентов требует от нас анализа как самодостаточных, так и внешне
+          зависимых концептуальных решений! Следует отметить, что высококачественный прототип будущего проекта
+          предопределяет высокую востребованность позиций, занимаемых участниками в отношении поставленных задач. Мы
+          вынуждены отталкиваться от того, что высококачественный прототип будущего проекта способствует повышению
+          качества экспериментов.</p>
+        <div class="about__articles">
+          <div class="about__articles-container about__articles-container_big">
+            <article class="about__article about__article_big">
+              <div class="about__overlay">
+                <p class="text about__overlay-text">Принимая во внимание показатели успешности, перспективное
+                  планирование
+                  способствует подготовке и реализации новых принципов.</p>
+                <button class="about__btn">Подробнее</button>
+              </div>
+            </article>
+          </div>
+          <div class="about__articles-container">
+            <article class="about__article about__article-bg_package">
+              <h3 class="subtitle about__subtitle">Консультация с широким активом</h3>
+              <p class="text about__article-text">А также свежий взгляд на привычные вещи - безусловно открывает новые
+                горизонты для как
+                самодостаточных, так и внешне зависимых концептуальных решений.</p>
+            </article>
+            <article class="about__article about__article-bg_gear">
+              <h3 class="subtitle about__subtitle">В своём стремлении повысить</h3>
+              <p class="text about__article-text">Качество жизни, они забывают, что сплочённость команды профессионалов
+                представляет собой
+                интересный эксперимент проверки прогресса профессионального сообщества. </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="how">
+      <div class="container">
+        <h2 class="section-title how__section-title">Как мы работаем</h2>
+        <ul class="how__progress">
+          <li class="how__progress-item">
+            <button class="how__progress-btn how__progress-btn_active" data-step="1">1 шаг</button>
+          </li>
+          <li class="how__progress-item">
+            <button class="how__progress-btn" data-step="2">2 шаг</button>
+          </li>
+          <li class="how__progress-item">
+            <button class="how__progress-btn" data-step="3">3 шаг</button>
+          </li>
+          <li class="how__progress-item">
+            <button class="how__progress-btn" data-step="4">4 шаг</button>
+          </li>
+        </ul>
+        <div class="how__content">
+          <div class="how__info">
+            <h3 data-how="title" class="subtitle how__subtitle">Проводим консультацию</h3>
+            <p data-how="text" class="text how__text">Влечет за собой процесс внедрения и модернизации приоритизации
+              разума над
+              эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут
+              объективно рассмотрены соответствующими инстанциями. А также представители современных социальных
+              резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь
+              всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования
+              подвергнуты целой серии независимых исследований. Кстати, стремящиеся вытеснить традиционное производство,
+              нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы,
+              разумеется, призваны к ответу.</p>
+            <div class="how__buttons">
+              <button class="how__btn">Подробнее</button>
+              <button class="how__btn how__btn-offer">Договор</button>
+            </div>
+          </div>
+          <div aria-label="Изображение как мы работаем" data-how="photo" data-photo="1" class="how__photo"></div>
+        </div>
+      </div>
+    </section>
+    <section class="faq">
+      <div class="container">
+        <h2 class="section-title faq__section-title">Часто задаваемые вопросы</h2>
+        <div id="accordion">
+          <div class="faq__question">
+            <h3 role="button" tabindex="0">Из чего формируется конечная стоимость проекта?</h3>
+            <div class="faq__icon">
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div>
+            <p>Влечет за собой процесс внедрения и модернизации приоритизации разума над
+              эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут
+              объективно рассмотрены соответствующими инстанциями. А также представители современных социальных
+              резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь
+              всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования
+              подвергнуты целой серии независимых исследований. Кстати, стремящиеся вытеснить традиционное
+              производство,
+              нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы,
+              разумеется, призваны к ответу.
+            </p>
+          </div>
+          <div class="faq__question">
+            <h3 role="button" tabindex="0">У меня есть свой проект. Сможем ли мы его доработать / реализовать?</h3>
+            <div class="faq__icon">
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div>
+            <p>Влечет за собой процесс внедрения и модернизации приоритизации разума над
+              эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут
+              объективно рассмотрены соответствующими инстанциями. А также представители современных социальных
+              резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь
+              всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования
+              подвергнуты целой серии независимых исследований. Кстати, стремящиеся вытеснить традиционное
+              производство,
+              нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы,
+              разумеется, призваны к ответу.
+            </p>
+          </div>
+          <div class="faq__question">
+            <h3 role="button" tabindex="0">Я выбираю между разными компаниями. В чём ваше отличие?</h3>
+            <div class="faq__icon">
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div>
+            <p>Влечет за собой процесс внедрения и модернизации приоритизации разума над
+              эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут
+              объективно рассмотрены соответствующими инстанциями. А также представители современных социальных
+              резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь
+              всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования
+              подвергнуты целой серии независимых исследований. Кстати, стремящиеся вытеснить традиционное
+              производство,
+              нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы,
+              разумеется, призваны к ответу.
+            </p>
+          </div>
+          <div class="faq__question">
+            <h3 role="button" tabindex="0">Могу ли я делегировать вам работу / согласование с подрядчиком / организацией?</h3>
+            <div class="faq__icon">
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div>
+            <p>Влечет за собой процесс внедрения и модернизации приоритизации разума над
+              эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут
+              объективно рассмотрены соответствующими инстанциями. А также представители современных социальных
+              резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь
+              всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования
+              подвергнуты целой серии независимых исследований. Кстати, стремящиеся вытеснить традиционное
+              производство,
+              нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы,
+              разумеется, призваны к ответу.
+            </p>
+          </div>
+          <div class="faq__question">
+            <h3 role="button" tabindex="0">Могу ли я вернуть деньги на каком-либо из этапов работ?</h3>
+            <div class="faq__icon">
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div>
+            <p>Влечет за собой процесс внедрения и модернизации приоритизации разума над
+              эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут
+              объективно рассмотрены соответствующими инстанциями. А также представители современных социальных
+              резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь
+              всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования
+              подвергнуты целой серии независимых исследований. Кстати, стремящиеся вытеснить традиционное
+              производство,
+              нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы,
+              разумеется, призваны к ответу.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__col footer__col-links">
+          <img src="./img/logoFooter.png" alt="" class="footer__logo">
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a href="#" class="footer__link">О нас</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__link">Проекты</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__link">Отзывы</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__link">Договор оферты</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__link">Договор подряда</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__link">Конфиденциальность</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__link">Партнёрское соглашение</a>
+            </li>
+          </ul>
+          <ul class="footer__social">
+            <li class="footer__social-item footer__social-item_facebook"><a aria-label="Facebook social-link" href="#"></a></li>
+            <li class="footer__social-item footer__social-item_vkontakte"><a aria-label="Вконтакте social-link" href="#"></a></li>
+            <li class="footer__social-item footer__social-item_instagram"><a aria-label="Instagram social-link" href="#"></a></li>
+          </ul>
+        </div>
+        <div class="footer__col footer__col-form">
+          <h2 class="section-title footer__section-title">Оставить заявку</h2>
+          <form action="#" method="POST" class="footer__form">
+            <input required name="name" placeholder="Фамилия, имя и отчество*" type="text" class="footer__input">
+            <input required name="email" placeholder="E-mail*" type="email" class="footer__input">
+            <textarea class="footer__textarea" name="message" placeholder="Сообщение"></textarea>
+            <div class="footer__submit">
+              <button class="footer__submit-btn">Отправить данные</button>
+              <div class="footer__confidence">
+                <input id="confidence" name="confidence" class="footer__checkbox" type="checkbox">
+                <label for="confidence" class="footer__label">Согласен на обработку данных</label>
+              </div>
+            </div>
+          </form>
+        </div>
+        <p class="footer__col text footer__text">Высокий уровень вовлечения представителей целевой аудитории является
+          четким
+          доказательством простого факта: разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить
+          значение модели развития. Таким образом, консультация с широким активом обеспечивает широкому кругу
+          (специалистов) участие в формировании стандартных подходов.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script defer src="js/index.js"></script>
+</body>
+
+</html>
